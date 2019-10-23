@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is the ordering page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="CS2204 CW1">
+    <meta name="keywords" content="Cityu, SUshi, CS">
+    <meta name="author" content="Ryan Yen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/order.css" media="screen">
+    <link rel="stylesheet" href="css/print.css" media="print">
+  </head>
+  <body>
+    <div class="bg">
+      <header id="banner">
+          <div class="logo">
+            <a href="CW1.html"><img src="images/Sushi-96.png" alt="sushi logo">
+              <h1>CITY SUSHI</h1></a>
+          </div>
+      </header>
+
+
+
+      <section id="menu" class="notprint">
+        <h2>Menu</h2>
+
+        <div class="product">
+          <div class="s1"> <p>Sushi</p>
+            <div class="sushi">
+              <img src="images/sushi-1.jpg" alt="sushi1"><input type="number" name="quantity" min="1" max="5">
+                <input type="submit" name="add" value="Add">
+              <img src="images/sushi-2.jpg" alt="sushi2"><input type="number" name="quantity" min="1" max="5">
+                <input type="submit" name="add" value="Add">
+              <img src="images/sushi-3.jpg" alt="sushi3">
+                <input type="number" name="quantity" min="1" max="5"><input type="submit" name="add" value="Add">
+              <img src="images/sushi-3.jpg" alt="sushi3">
+                <input type="number" name="quantity" min="1" max="5"><input type="submit" name="add" value="Add">
+            </div>
+          </div>
+
+          <div class="d1"> <p>Drinks</p>
+          <div class="drink">
+            <img src="images/drink-1.jpg" alt="drink1"><input type="number" name="quantity" min="1" max="5"><input type="submit" name="add" value="Add">
+            <img src="images/drink-2.jpg" alt="drink2"><input type="number" name="quantity" min="1" max="5"><input type="submit" name="add" value="Add">
+          </div>
+        </div>
+
+          <div class="de1"><p>Dessert</p>
+          <div class="dessert">
+            <img src="images/dessert-1.jpg" alt="dessert1"><input type="number" name="quantity" min="1" max="5"><input type="submit" name="add" value="Add">
+          </div>
+        </div>
+
+      </div>
+      </section>
+
+      <br>
+
+      <section id="items" class="order">
+        <h1>Ordered Items</h1>
+        <p>14 Oct 2019 15:59</p>
+        <br>
+        <table>
+          <caption>Table: 4 - No. of Guests 3</caption>
+          <thead>
+            <tr><th class="r">Description</th><th class="l">Qty</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="r">Salmon sushi roll</td> <td  class="ln">4</td></tr>
+            <tr><td class="r">sushi combo</td><td  class="ln">2</td></tr>
+            <tr><td class="r">tuna sushi</td><td  class="ln">1</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td class="r">Total</td><td  class="ln">7</td></tr>
+          </tfoot>
+        </table>
+        <a href="">Undo</a>
+      </section>
+
+
+      <footer id="footer" class="notprint">
+        <div class="copyright">
+          <p>&copy; Untitled. All rights reserved. Design by <a href="design.html">RYAN Yen</a></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

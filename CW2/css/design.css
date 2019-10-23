@@ -1,0 +1,134 @@
+body {
+  margin:0;
+  padding: 0;
+  background: #202020;
+  color: #444444;
+}
+
+.image-full {
+  display: block;
+  width: 100%;
+  margin: 0 0 2em 0;
+}
+
+.container {
+  overflow: hidden;
+  margin: 0em auto;
+  width: 1200px;
+}
+
+#header {
+  position: absolute;
+  float: left;
+  width: 280px;
+  padding: 3em 0em;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 4em;
+  align-items: center;
+  padding-left: 2em;
+}
+
+.logo a{
+  align-items: center;
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.logo img {
+  display: inline-block;
+  margin-bottom: 1em;
+  border-radius: 50%;
+}
+
+/* Menu */
+#menu li {
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+
+#menu li a {
+  display: block;
+  padding: 2em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  color: rgba(255,255,255,0.5);
+}
+
+#menu .co:hover {
+  transition: 0.5s;
+  width: 16em;
+  z-index:2;
+  position: relative;
+  background: #FFA500;
+  opacity: 0.9;
+  color: rgba(255,255,255,1);
+}
+
+
+/* Main */
+.banner {
+  margin-bottom:4em;
+}
+.container {
+  background-color: #2a2a2a;
+}
+
+#main {
+  overflow: hidden;
+  float: right;
+  width: 800px;
+  padding: 3em 50px 5em 50px;
+  background: #f2f2f2;
+  border-top: 6px solid #FFA500;
+  text-align: center;
+}
+
+.title
+{
+  display: inline-block;
+  margin: 2em 2em 3em 2em;
+}
+
+.title h2 {
+  font-size: 2.5em;
+}
+
+.title .byline {
+  font-size: 1.3em;
+  display: inline-block;
+  color: #6F6F6F;
+  margin-bottom: 1.5em;
+}
+
+
+
+/* Copyright */
+
+	.copyright {
+		overflow: hidden;
+		padding: 1em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+	.copyright span {
+    padding-top: 2em;
+		display: block;
+		letter-spacing: 0.20em;
+		line-height: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: rgba(0,0,0,0.5);
+	}
+
+	.copyright a {
+		text-decoration: none;
+		color: rgba(0,0,0,0.9);
+	}

@@ -1,0 +1,232 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
+
+body{
+  background-color: #f2f2f2;
+  background-image:repeating-linear-gradient(#f2f2f2, black, #f2f2f2);
+}
+
+.bg {
+  background-image: url("../images/banner.jpg");
+  margin-right: 100vh;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  z-index:0;
+}
+
+.bg:before {
+  transition: opacity 3s ease;
+  transition-delay: 1.25s;
+  content: '';
+  display: relative;
+  background-color: #000;
+  height: 100%;
+  position: absolute;
+  opacity: 0.45;
+  margin: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Banner */
+#banner {
+  text-align: center;
+  background-color: #f2f2f2;
+  opacity:0.9;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+#banner .logo a{
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family:"Lobster", cursive;
+}
+
+.logo img {
+  margin: 0 0 2em 14em;
+  float: left;
+
+}
+.logo h1 {
+  padding-top: 1rem;
+  margin: 0 7em 2em 0;
+  color: rgb(32, 32, 32);
+}
+
+
+/* Menu */
+#menu {
+  background-color: #202020;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  margin-top: 5em;
+  color: white;
+}
+
+#menu h2 {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  fond-family: courier;
+  width: 45em;
+  padding: 1em 0 1em 1em;
+  margin-top: 3em;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.product {
+  width: 46em;
+  height: 50vh;
+}
+
+  .product img{
+    margin-left: 5px;
+    height: 7em;
+    width: 7em;
+  }
+
+  .product input[type="number"] {
+    margin: 1em 0 3em 1em;
+    width: 4em;
+  }
+
+.s1, .d1{
+  z-index: 4;
+  float:left;
+  padding: 0 6.3em 1em 6.3em;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.de1 {
+  z-index: 4;
+  float:left;
+  padding: 0 6.2em 1em 6.28em;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.s1 p, .d1 p, .de1 p{
+  height: 0;
+  text-align: center;
+}
+
+.sushi, .drink, .dessert {
+  position:absolute;
+  top: 6em;
+  left:0;
+  display:none;
+  float: left;
+  margin-top: 1em;
+  width: 43.9em;
+  height: 50vh;
+  z-index: 3;
+}
+
+.s1:hover, .d1:hover, .de1:hover {
+  background-color: #FFA500;
+  transition: .2s ease-in-out;
+}
+
+.s1:hover .sushi, .d1:hover .drink, .de1:hover .dessert{
+  padding: 2em 1em 1em 1em;
+  display: block;
+  border: 1px solid white;
+}
+
+
+/* Items */
+
+#items {
+  margin: 20vh 110vh 5em 30vh;
+  color: white;
+  border: .5px dashed white;
+  padding: 2em 2em 3em 4em;
+  position: relative;
+}
+
+.order h1 {
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 1.5em;
+}
+.order p {
+  font-family: cursive;
+  font-weight: light;
+  font-size: 1em;
+  padding-left: 4em;
+}
+
+
+#items th, td {
+  border: .5px solid #696969;
+}
+
+tfoot, thead {
+  color: white;
+  background-color: gray;
+}
+
+table .l{
+  padding-left: 1em;
+  margin-right: 0;
+}
+
+table .ln {
+  padding-left: 2em;
+}
+
+table .r{
+  padding-right: 6em;
+  margin: 0;
+}
+
+#items a {
+  color: white;
+  padding-left: 7em;
+  text-decoration: none;
+}
+
+
+
+
+/* footer */
+#footer {
+  padding: 2rem 0 2rem 0 ;
+  background: #f2f2f2;
+  position: relative;
+  z-index: 3;
+}
+
+  #footer .copyright {
+    color: #696969;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    z-index: 2;
+  }
+  .copyright a {
+    z-index: 2;
+    font-size: 1em;
+  }

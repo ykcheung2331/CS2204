@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
+
+body {
+  background-coloe: #FFF;
+  color: black;
+  align-items:center;
+}
+
+.notprint {
+  display: none;
+  visibility: none;
+}
+
+/* Banner */
+#banner {
+  text-align: center;
+  background-color: #f2f2f2;
+  width: 100vh
+  height: auto;
+  position: relative;
+  display: block;
+}
+
+#banner .logo a{
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  font-family:"Lobster", cursive;
+}
+
+.logo img {
+  margin: 0 0 2em 8em;
+  float: left;
+
+}
+.logo h1 {
+  padding-top: 1rem;
+  margin: 2em 6em 2em 0;
+}
+
+
+
+/* Items */
+
+#items {
+  margin: 0 50vh 5em 8em;
+  height: 100%;
+  width: 30vh;
+  color: black;
+  border: .5px dashed black;
+  padding: 2em 2em 3em 4em;
+
+}
+
+.order h1 {
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 1.5em;
+}
+.order p {
+  font-family: cursive;
+  font-weight: light;
+  font-size: 1em;
+  padding-left: 4em;
+}
+
+
+#items th, td {
+  border: .5px solid white;
+}
+
+tfoot, thead {
+  color: black;
+  background-color: gray;
+}
+
+table .l{
+  padding-left: 1em;
+  margin-right: 0;
+}
+
+table .ln {
+  padding-left: 2em;
+}
+
+table .r{
+  padding-right: 6em;
+  margin: 0;
+}
+
+#items a {
+  color: white;
+  padding-left: 7em;
+  text-decoration: none;
+}
